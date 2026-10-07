@@ -1177,26 +1177,45 @@ h2 span{
 }
 
 .proof-card{
-
-  min-height:0;
-
   padding:0;
-
   display:flex;
-
   flex-direction:column;
-
   align-items:stretch;
-
   justify-content:flex-start;
-
   text-align:center;
-
   border:1px solid #e6e1db;
-
   border-radius:20px;
-
   background:#faf9f7;
+  overflow:hidden;
+}
+
+.proof-card img{
+  width:100%;
+  height:280px;
+  object-fit:contain;
+  display:block;
+  background:#f3f0ec;
+}
+
+.proof-content{
+  padding:22px;
+}
+
+.proof-content .proof-icon{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+.proof-content h3{
+  font-size:17px;
+  margin-bottom:7px;
+}
+
+.proof-content p{
+  color:var(--muted);
+  font-size:10px;
+  margin:0;
+}
 
   overflow:hidden;
 
@@ -2890,78 +2909,102 @@ footer p{
     </div>
 
     <h2>
+
       మాటలకంటే
       <span>
         real journey ముఖ్యం.
       </span>
+
     </h2>
 
     <p class="section-intro">
+
       Genuine achievements, training photos,
       team activities మరియు real testimonialsని
       ఇక్కడ చూడండి.
+
     </p>
 
     <div class="proof-grid">
 
       <!-- MANAGER ACHIEVEMENT -->
       <div class="proof-card">
+
         <img
           src="assets/manager-achievement.jpg"
           alt="Ramesh Manager Achievement"
-          loading="lazy"
         >
+
         <div class="proof-content">
+
           <div class="proof-icon">
             🏆
           </div>
+
           <h3>
             Manager Achievement
           </h3>
+
           <p>
             Genuine achievement from my business journey.
           </p>
+
         </div>
+
       </div>
+
 
       <!-- TRAINING -->
       <div class="proof-card">
+
         <img
           src="assets/training-photo.jpg"
           alt="Ramesh Training Session"
-          loading="lazy"
         >
+
         <div class="proof-content">
+
           <div class="proof-icon">
             📸
           </div>
+
           <h3>
-            Training &amp; Mentorship
+            Training & Mentorship
           </h3>
+
           <p>
             Real training and learning experience.
           </p>
+
         </div>
+
       </div>
+
 
       <!-- TESTIMONIAL -->
       <div class="proof-card">
+
         <img
           src="assets/testimonial-01.jpg"
           alt="Real Testimonial"
-          loading="lazy"
         >
+
         <div class="proof-content">
+
           <div class="proof-icon">
             💬
           </div>
+
           <h3>
             Real Testimonial
           </h3>
+
           <p>
             Genuine feedback from someone I have worked with.
           </p>
+
         </div>
+
       </div>
 
     </div>
@@ -2969,7 +3012,6 @@ footer p{
   </div>
 
 </section>
-
 
 
 <!-- =====================================================
